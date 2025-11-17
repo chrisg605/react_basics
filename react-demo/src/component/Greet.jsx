@@ -1,6 +1,11 @@
 const Greet = () => {
+    const name = "Hi";
+    const date = new Date();
 
-    return <h1>hello</h1>
+    return <div>
+        <h1>{name}</h1>
+        <p>{date.getMonth() + 1}/{date.getDate()}/{date.getFullYear()}</p>
+    </div>
 
 }
 
